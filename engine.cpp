@@ -77,7 +77,7 @@ struct Slot {
         arrows.left = {
             space.x - ((GetScreenWidth() - space.x - space.width) * arrows.horiz_ratio),
             arrows.right.y
-        };        
+        };
     }
 
     ~Slot() { UnloadTexture(texture); }
